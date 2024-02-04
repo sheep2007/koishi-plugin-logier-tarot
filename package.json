@@ -1,0 +1,36 @@
+{
+  "name": "koishi-plugin-logier-tarot",
+  "description": "这是一个 Logier 版的塔罗牌插件",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "author": "sheep2007 <3345168558@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "koishi": {
+    "description": {
+      "zh": "改写自 logier 佬写的 yunzai 插件。<br>（因为大多数是直接抄的，再加上本人是个新手 <br> 所以会有很多bug，这是很正常的，修就完事。）",
+      "en": "Give Koishi the ability to send long text message as image.<br>(Only plain text messages are affected.)"
+    },
+    "service": {
+      "required": [
+        "puppeteer"
+      ]
+    }
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.16.8",
+    "koishi-plugin-puppeteer": "^3.7.3"
+  }
+}
