@@ -15,8 +15,7 @@
   },
   "koishi": {
     "description": {
-      "zh": "改写自 logier 佬写的 yunzai 插件。<br>（因为大多数是直接抄的，再加上本人是个新手 <br> 所以会有很多bug，这是很正常的，修就完事。）",
-      "en": "Give Koishi the ability to send long text message as image.<br>(Only plain text messages are affected.)"
+      "zh": "改写自 logier 佬写的 yunzai 插件。<br>（因为大多数是直接抄的，再加上本人是个新手， <br> 所以会有很多bug，这是很正常的，修就完事。）"
     },
     "service": {
       "required": [
